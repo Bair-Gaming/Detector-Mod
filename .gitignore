@@ -1,4 +1,66 @@
+# Exclude Visual Studio code workspace settings
 .vscode/
+.vs/
+
+# Exclude build results
+AssetBundles/
+Library/
+Logs/
+obj/
+Temp/
+UserSettings/
 bin/
-**/detector.csp*
-*project.nuget*
+ram Files (x86)/
+
+# Exclude project settings
+ProjectSettings/
+
+# Exclude miscellaneous files
+*.csproj
+*.sln
+*.userprefs
+*.user
+*.unityproj
+*.booproj
+.vsconfig
+mono_crash.*
+
+# Exclude NuGet Packages
+packages/
+# Uncomment the line below if you want to ignore the NuGet packages
+# This can be useful if you have your NuGet packages on a network drive or other accessible location
+# but can cause issues if you're not careful with your package management
+# *packages.config
+
+# Other files and folders to ignore
+[Ll]ogs/
+[Tt]emp/
+[Oo]bj/
+[Bb]in/
+[Ll]ogs/
+*.userprefs
+*.pidb
+*.suo
+*.sln.docstates
+*.user
+*.unityproj
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.tmp_proj
+
+# OS generated files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Exclude all LICENSE files except the root
+[Ll]ICENSE
+# Uncomment the line below if you want to include the root LICENSE file
+# !/LICENSE
