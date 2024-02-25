@@ -1,0 +1,4 @@
+.vscode/
+bin/
+**/detector.csp*
+*project.nuget*
